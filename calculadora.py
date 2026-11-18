@@ -21,8 +21,8 @@ while resposta == "s":
         resultado = num1 * num2
         print(resultado)
     elif opcao == "4":
-        if num1 == 0:
-            print("Erro: o denominador tem que ser diferente de 0")
+        if num2 == 0:
+            print("Erro: o divisor deve ser diferente de zero")
         else:
             resultado = num1 / num2
             print(resultado)
